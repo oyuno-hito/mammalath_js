@@ -1,0 +1,82 @@
+
+  #board{
+    
+  }
+
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  [class^="square-"],
+  [class*="square-"] :focus {
+    outline: none;
+  }
+
+
+  
+  [class^="square-"],
+  [class*="square-"]  {
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    height: 40px;
+    margin-right: -2px;
+    margin-top: -2px;
+    padding: 0;
+    text-align: center;
+    width: 40px;
+  }
+  @media (min-width: 800px) {
+    [class^="square-"],
+    [class*="square-"]  {
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 100px;
+    height: 100px;
+    margin-right: -2px;
+    margin-top: -2px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+  }
+  }
+
+  /* .square  { */
+    /* background: #fff; */
+    /* border: 1px solid #999; */
+    /* font-size: 24px; */
+    /* font-weight: bold; */
+    /* line-height: 80px; */
+    /* height: 80px; */
+    /* margin-right: -2px; */
+    /* margin-top: -2px; */
+    /* padding: 0; */
+    /* text-align: center; */
+    /* width: 80px; */
+  /* } */
+
+  .animal-1{
+    background: green;
+  }
+
+  .animal-2{
+    background: yellow;
+  }
+
+  .animal-3{
+    background: blue;
+  }
+  .animal-4{
+    background: red;
+  }
+  .animal-5{
+    background: purple;
+  }
+  .animal-6{
+    background: orange;
+  }

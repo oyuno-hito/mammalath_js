@@ -6,18 +6,8 @@ import * as serviceWorker from './serviceWorker';
 import FlexExample from './FlexExample';
 
 
-// ReactDOM.render(
-// 
-// <React.StrictMode>
-{/* <div className="title">Mammalath</div> */ }
-{/* <App /> */ }
-{/* </React.StrictMode>, */ }
-// document.getElementById('contents')
-// );
-
 ReactDOM.render(
   <React.StrictMode>
-    <div className="title">Mammalath</div>
     {/* <FlexExample /> */}
     <App />
   </React.StrictMode>,

@@ -8,14 +8,16 @@ function Navigator() {
     )
 
     return (
-        <Grid item xs={12} sm={4} className="navigator">
-            {/* <Paper> */}
-            {/* <span id="navigator"> */}
-            <ul className="navigator_list">
-                {mock_list}
-            </ul>
-            {/* </span> */}
-            {/* </Paper> */}
+        <Grid container alignItems="center" justify="center">
+            <Grid item xs={12} sm={12} >
+                <Paper>
+                    {/* <span id="navigator"> */}
+                    <ul className="navigator_list">
+                        {mock_list}
+                    </ul>
+                    {/* </span> */}
+                </Paper>
+            </Grid>
         </Grid>
     )
 }

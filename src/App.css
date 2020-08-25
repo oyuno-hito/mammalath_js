@@ -1,33 +1,34 @@
+.title{
+  height: 10vh;
+  font-size: 8vh;
+  margin-bottom: 5vh;
+}
+
 .App {
   /* width: 80%; */
   /* margin: 0 auto; */
   /* display: flex; */
-  margin-top: 50px;
-  height: 80vh;
+  height: 85vh;
 }
 
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.controller-board{
+  height: 45vh;
 }
 
-.App-link {
-  color: #61dafb;
+.navigator{
+  /* text-align: left;   */
+  /* margin-top: 5vh; */
+  /* background-color: orchid; */
+  height: 40vh;
+  overflow: auto;
+  font-size: 3vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 800px) {
+  .navigator{
+      height: 80vh;
+      font-size: 32px;
   }
-  to {
-    transform: rotate(360deg);
+  .controller-board{
+    height: 80vh;
   }
 }

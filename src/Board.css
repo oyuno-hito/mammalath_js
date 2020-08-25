@@ -1,8 +1,3 @@
-
-  #board{
-    
-  }
-
   .board-row:after {
     clear: both;
     content: "";
@@ -18,32 +13,37 @@
   [class^="square-"],
   [class*="square-"]  {
     background: #fff;
-    border: 1px solid #999;
-    font-size: 32px;
+    border: 0.3vh solid rgb(187, 185, 185);
+    /* font-size: 32px; */
     font-weight: bold;
-    line-height: 40px;
+    /* line-height: 40px; */
     height: 40px;
-    margin-right: -2px;
-    margin-top: -2px;
-    padding: 0;
-    text-align: center;
+    /* margin-right: -2px; */
+    /* margin-top: -2px; */
+    /* padding: 0; */
+    /* text-align: center; */
     width: 40px;
+    box-sizing: border-box;
   }
   @media (min-width: 800px) {
     [class^="square-"],
     [class*="square-"]  {
-    background: #fff;
-    border: 1px solid #999;
-    font-size: 80px;
-    font-weight: bold;
+    /* font-size: 80px; */
     line-height: 100px;
     height: 100px;
-    margin-right: -2px;
-    margin-top: -2px;
-    padding: 0;
-    text-align: center;
     width: 100px;
   }
+  }
+  .stone{
+    /* position: relative;
+    top: -10px;
+    line-height: 10px; */
+    font-size: 4vh;
+    height: 90%;
+    /* text-align: center; */
+    /* display: table-cell;
+    vertical-align : middle;
+    text-align: center; */
   }
 
   /* .square  { */
@@ -60,14 +60,19 @@
     /* width: 80px; */
   /* } */
 
+  .selected{
+    border: 0.3vh solid; /* 線の太さと可視化 */
+    border-color: yellow;
+  }
+  .animal-0{
+    background: white;
+  }
   .animal-1{
     background: green;
   }
-
   .animal-2{
-    background: yellow;
+    background: rgb(219, 219, 60);
   }
-
   .animal-3{
     background: blue;
   }

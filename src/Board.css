@@ -38,8 +38,10 @@
     /* position: relative;
     top: -10px;
     line-height: 10px; */
-    font-size: 4vh;
-    height: 90%;
+    font-size: 3.5vh;
+    height: 70%;
+    margin-top: 0px;
+    /* overflow: auto; */
     /* text-align: center; */
     /* display: table-cell;
     vertical-align : middle;
